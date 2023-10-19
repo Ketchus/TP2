@@ -19,12 +19,14 @@ serveur Linux. Vous devez commencer par (source: https://www.it-connect.fr/chapi
   -  aussi, si on oublie la passphrase, on ne peut plus accéder à notre clé privée..
 - le couple de clé est généré et mis dans le fichier sélectionner
 
-  1.3 Exercice : Authentification par clef / Connection serveur
-Configuration sur le serveur
+1.3 Exercice : Authentification par clef / Connection serveur
+-Configuration sur le serveur
+
 Il faut indiquer à ssh que nous souhaitons permettre la connexion par clés pour cela, aller dans le fichier /etc/ssh/sshd_config et faire PermitRootLogin yes
 Après cette étape, je n'ai pas eu à faire la création ou moditication du dossier .ssh ça s'est fait tout seul après la génération de mon couple de clé privée/publique
 
-1.4 Exercice : Authentification par clef : depuis la machine hote
+1.4 Exercice : Authentification par clef depuis la machine hote :
+
 pour se connecter à la machine haote, il faut rentrer la commande:ssh -i maclef.pub root@ipserveur et la connection sera établi.
 
 1.5 Exercice : S´ecurisez
