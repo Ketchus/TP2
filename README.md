@@ -10,7 +10,7 @@ t’il utiliser chacunes des options.
 
 1.2 Exercice : Authentification par clef / Génération de clefs
 Vous allez maintenant cr´eer une clef d’authentification pour vous connecter directement à votre
-serveur Linux. Vous devez commencer par (source: https://www.it-connect.fr/chapitres/authentification-ssh-par-cles/)
+serveur Linux. Vous devez commencer par:
 - gérérer un couple de clef privée public sur votre session Linux sur la machine hote:
 - Entrer la commande ssh-keygen
 - rentrer le noms du fichier dans lequel on veut enregistrer les clés (j'ai choisi le fichier .ssh/id/rsa)
@@ -130,7 +130,8 @@ Que voyez-vous si vous redémarrez le service cron depuis un autre shell ? on vo
   - Quels modèles de cartes réseaux détecte-il ? en faisant la commande dmesg | grep -i 'eth' on a eth0: INTEL(R) PRO/1000 Network Connection
 
  Remarque Générale: ce TP était beaucoup plus facile que l'aute j'ai eu quelques petits soucis ne sachant pas qu'il fallait installer certains outils avant l'utilisation comme pstree et htop par exemple. Sinon C'était beaucoup plus facile et rapide à faire .
- Source: Prof, Chatgpt, man, www.malekal.com, www-itconnect.com, cloud.ibm.com, perso.liris.cnrs.fr et www.digitalocean.com
+ 
+ Source: Professeur, Chatgpt, man, www.malekal.com, https://www.it-connect.fr, https://cloud.ibm.com, http://www.perso.liris.cnrs.fr et www.digitalocean.com
 
 
 
