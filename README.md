@@ -30,8 +30,9 @@ Après cette étape, je n'ai pas eu à faire la création ou moditication du dos
 pour se connecter à la machine haote, il faut rentrer la commande:ssh -i maclef.pub root@ipserveur et la connection sera établi.
 
 1.5 Exercice : S´ecurisez
-Pour sécurisez l’accès à notre machine via ssh pour root par clef seulement afin d’´eviter les tentatitve
-d’authentification par brute force ssh il faut:
+
+Pour sécurisez l’accès à notre machine via ssh pour root par clef seulement afin d’´eviter les tentatitve d’authentification par brute force ssh il faut:
+
 -générer un couple de clé privée et publique (déjà fait avant)
 -Copier la clé publique sur le serveur de la machine hote avec la commande : ssh-copy-id user@hostname
 -désactiver l'authentification par mot de passe dans le fichier de configuration SSH (/etc/ssh/sshd_config) faire : PasswordAuthentication no
